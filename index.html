@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Basketball-Scoreboard</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <h3>HOME</h3>
+            <div class="scoreBoard"><h1 id="homeSB">0</h1></div>
+            <div class="btns">
+                <button class="btn" onclick="increment1()">+1</button>
+                <button class="btn" onclick="increment2()">+2</button>
+                <button class="btn" onclick="increment3()">+3</button>
+            </div>
+            <div class="moreBtn">
+                <button class="reset"  onclick="resetScore()">Reset</button>
+                <button class="save" onclick="saveScore()">Save</button>
+            </div>
+            <h4 id="finalScore">Your Score : </h4>
+        </div>
+        <div class="guest">
+            <h3>GUEST</h3>
+            <div class="scoreBoard"><h1 id="guestSB">0</h1></div>
+            <div class="btns">
+                <button class="btn" onclick="increment1g()">+1</button>
+                <button class="btn" onclick="increment2g()">+2</button>
+                <button class="btn" onclick="increment3g()">+3</button>
+            </div>
+            <div class="moreBtn">
+                <button class="reset" onclick="resetScoreg()">Reset</button>
+                <button class="save" onclick="saveScoreg()">Save</button>
+            </div>
+            <h4 id="finalScoreg">Your Score : </h4>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

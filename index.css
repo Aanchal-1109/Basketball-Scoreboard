@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+   background-color: pink;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around; 
+    
+}
+.home , .guest{
+    background: aqua;
+    margin: 2em;
+    padding: 0.8em;
+    width: 40%;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.scoreBoard{
+    background: pink;
+    margin: 0.2em 1em 0.2em 1em;
+    padding: 1em;
+    width: 40%;
+    font-family: 'Orbitron', sans-serif;
+    border-radius: 10px;
+}
+.btns{
+    display: flex;
+    gap: 1em;
+    margin: 0.5em;
+}
+.btns button{
+    color: black;
+    background: white;
+    border: 0.7px solid grey;
+    border-radius: 5px;
+}
+.moreBtn{
+    display: flex;
+    gap: 0.8em;
+    margin: 0.5em;
+}
+.moreBtn button{
+    color: black;
+    background: white;
+    border: 0.7px solid grey;
+    border-radius: 5px;
+}
+button:hover{
+    background: pink;
+    font-weight: 300;
+}
